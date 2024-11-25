@@ -97,4 +97,4 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git commit -m "Bump version to the latest beta (${{ env.new_version }})."
-          git push beta
+          git push
