@@ -71,7 +71,7 @@ jobs:
             git config user.name "GitHub Actions"
             git config user.email "actions@github.com"
             git commit -m "Bump version to the latest ESR release (${{ env.new_version }})."
-            git push esr
+            git push
           else
             echo "New major version (${{ env.new_version }}), please proceed to a manual update."
           fi
