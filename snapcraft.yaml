@@ -58,6 +58,7 @@ apps:
       - host-usr-share-hunspell
       - joystick
       - login-session-observe
+      - mount-observe
       - network
       - network-observe
       - opengl
